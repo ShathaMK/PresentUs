@@ -16,7 +16,7 @@ struct Raghad_profile: View {
                 .clipShape(Circle())
                 .overlay(Circle().stroke(Color.orange, lineWidth: 4))
                 
-            Text("Raghad Almarri")
+            Text("Raghad Mohammed")
                 .font(.title)
                 .fontWeight(.bold)
                 .foregroundColor(Color.orange)
