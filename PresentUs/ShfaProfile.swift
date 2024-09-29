@@ -24,7 +24,7 @@ struct ShfaProfile: View {
                 .frame(maxWidth: .infinity, alignment: .leading)
                 .padding (.bottom)
             
-            Text("Just a clown, trying to survive day by day, honestly not sure how I went from “I’ll figure it out” to “What on earth is going on?”—but hey, at least I’m entertaining myself along the way.")
+            Text("Just a Clown, trying to survive day by day, honestly not sure how I went from “I’ll figure it out” to “What on earth is going on?”—but hey, at least I’m entertaining myself along the way.")
                 .font(.body)
                 .padding(.bottom)
         }
