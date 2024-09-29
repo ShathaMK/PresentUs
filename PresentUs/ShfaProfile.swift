@@ -9,7 +9,26 @@ import SwiftUI
 
 struct ShfaProfile: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Image ("clown")
+                .resizable ()
+                .scaledToFit()
+                .clipShape(Circle())
+                .overlay (Circle().stroke(Color.red, lineWidth:4))
+            
+                .padding(.bottom)
+            Text("Clown ...")
+                .font(.title)
+                .fontWeight(.bold)
+                .foregroundColor (Color.red)
+                .frame(maxWidth: .infinity, alignment: .leading)
+                .padding (.bottom)
+            
+            Text("Just a clown, trying to survive day by day, honestly not sure how I went from “I’ll figure it out” to “What on earth is going on?”—but hey, at least I’m entertaining myself along the way.")
+                .font(.body)
+                .padding(.bottom)
+        }
+        .padding()
     }
 }
 
