@@ -19,10 +19,11 @@ struct AljoharahProfile: View {
                 .overlay(
                     Circle().stroke(Color.yellow, lineWidth: 5)
                 )
-                .shadow(radius: 10)
+                .shadow(radius: 100)
             
            
             Text("Aljoharah Alsayari")
+                .foregroundStyle(.yellow)
                 .font(.title)
                 .fontWeight(.bold)
                 .multilineTextAlignment(.leading)
