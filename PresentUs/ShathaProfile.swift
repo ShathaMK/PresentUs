@@ -25,7 +25,7 @@ struct ShathaProfile: View {
             Text("Shatha Almukhaild").font(.title).fontWeight(.medium)            .frame(maxWidth: .infinity, alignment: .leading).padding().foregroundStyle(.brown)
 
 
-            Text("Hi devs, I'm a Computer science gradutes from Alahsa. I enjoy coding and designing. I recently moved to Riyadh to pursue my dream to become an application developer.").font(.body) .frame(maxWidth: .infinity, alignment: .leading).padding()
+            Text("Hi devs, I'm a Computer Science gradutes from Alahsa. I enjoy coding and designing. I recently moved to Riyadh to pursue my dream to become an application developer.").font(.body) .frame(maxWidth: .infinity, alignment: .leading).padding()
 
             
 
