@@ -15,7 +15,7 @@ struct YomnaProfile: View {
                     Circle().stroke(Color.pink, lineWidth: 5))
             
             Text("Yomna Eisa").font(.title.bold())
-                .foregroundColor(.green)
+                .foregroundColor(.pink)
                 .opacity(1.5)
                 .frame(maxWidth: .infinity, alignment: .leading)
                 .padding(1.5)
