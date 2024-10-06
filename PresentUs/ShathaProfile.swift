@@ -18,7 +18,7 @@ struct ShathaProfile: View {
     var body: some View {
         VStack(spacing:10){
             
-            Image("Horse").resizable().frame(width:200,height: 200).clipShape(.circle).overlay(    Circle()
+            Image("clown").resizable().frame(width:200,height: 200).clipShape(.circle).overlay(    Circle()
                 .stroke(Color.brown, lineWidth: 6)
 )
        
